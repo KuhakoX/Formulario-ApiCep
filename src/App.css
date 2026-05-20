@@ -17,6 +17,10 @@
   }
 }
 
+.body{
+  background: linear-gradient(135deg, #3d0275, #000000);
+}
+
 .hero {
   position: relative;
 
@@ -63,6 +67,7 @@
   place-content: center;
   place-items: center;
   flex-grow: 1;
+  
 
   @media (max-width: 1024px) {
     padding: 32px 20px 24px;

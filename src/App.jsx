@@ -54,8 +54,11 @@ function App() {
   };
 
   return (
+    <body>
+      
+    
     <div className="container">
-      <h1>Formulário de Inscrição de Candidatos</h1>
+      <h1>Formulário</h1>
 
       <form onSubmit={handleSubmit} className="form">
         <div className="field">
@@ -168,6 +171,7 @@ function App() {
         <button type="submit" className="submit">Enviar inscrição</button>
       </form>
     </div>
+    </body>
   );
 }
 
